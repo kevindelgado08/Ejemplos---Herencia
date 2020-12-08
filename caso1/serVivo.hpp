@@ -16,33 +16,33 @@ public:
 class Ave : public serVivo
 {
 protected:    
-    int vuela;
+    int plumas;
 
 public:
-    Ave(int resp, int alim, int desp, int vuela) : serVivo(resp, alim, desp){
-        this->vuela = vuela;
+    Ave(int resp, int alim, int desp, int plumas) : serVivo(resp, alim, desp){
+        this->plumas = plumas;
     }
 };
 
 class Perro : public serVivo
 {
 protected:
-    int juega;
+    int ladra;
 
 public:
-    Perro(int resp, int alim, int desp, int juega) : serVivo(resp, alim, desp){
-        this->juega = juega;
+    Perro(int resp, int alim, int desp, int ladra) : serVivo(resp, alim, desp){
+        this->ladra = ladra;
     }
 };
 
 class Serpiente : public serVivo
 {
 protected:
-    int caza;
+    int venenosa;
 
 public:
-    Serpiente(int resp, int alim, int desp, int caza) : serVivo(resp, alim, desp){
-        this->caza = caza;
+    Serpiente(int resp, int alim, int desp, int venenosa) : serVivo(resp, alim, desp){
+        this->venenosa = venenosa;
     }
 };
 
